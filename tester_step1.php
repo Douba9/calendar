@@ -1,6 +1,6 @@
 <?php
 
-function display_event(Array $event)
+function display_event(array $event)
 {
     echo "The \"".$event['name']."\" event will take place on ".date('d-m-Y', strtotime($event['date']))." in ".$event['location']."\n";
 }
